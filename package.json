@@ -1,0 +1,24 @@
+{
+  "name": "monthviewbot",
+  "version": "1.0.0",
+  "description": "A PoC for generating month views",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamikazechaser/month-view.git"
+  },
+  "author": "Mohammed Sohail <sohail@forfuture.tech>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kamikazechaser/monthview-bot/issues"
+  },
+  "homepage": "https://github.com/kamikazechaser/monthview-bot#readme",  
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-calendar": "^0.1.4",
+    "node-telegram-bot-api": "^0.27.1"
+  }
+}
